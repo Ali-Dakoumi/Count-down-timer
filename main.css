@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1476108621677-3c620901b5e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-position: center center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: normal;
+  margin-top: 5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.bigtext {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 2rem;
+}
+.element {
+  text-align: center;
+}
+.element span {
+  font-size: 1.5rem;
+}
